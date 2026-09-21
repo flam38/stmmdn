@@ -1,0 +1,30 @@
+# Never commit market data: it is licensed and cannot be redistributed.
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Model checkpoints and run artefacts
+*.pth
+*.pt
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS and editor
+desktop.ini
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

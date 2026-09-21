@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "STMMDN: Spatial-Temporal Multivariate Mixture Density Networks"
+abstract: >-
+  Network architecture of the GNN-ALSTM-TTM model and its three ablations: an
+  (attention-)LSTM temporal encoder and a rolling-covariance dynamic graph
+  neural network feeding a two-component multivariate Student's t mixture
+  density output layer. Market data, trained models, the training pipeline and
+  the portfolio strategies of the paper are not included.
+type: software
+version: 1.2.0
+authors:
+  - family-names: Lam
+    given-names: Fong
+    affiliation: "The University of Sydney"
+    orcid: "https://orcid.org/0009-0009-0756-8356"
+  - family-names: Chan
+    given-names: Jennifer S. K.
+    affiliation: "The University of Sydney"
+  - family-names: Choy
+    given-names: S. T. Boris
+    affiliation: "The University of Sydney"
+  - family-names: Gao
+    given-names: Junbin
+    affiliation: "The University of Sydney"
+license: MIT
+
+preferred-citation:
+  type: article
+  title: >-
+    Spatial-Temporal Multivariate Mixture Density Networks: From Distributional
+    Forecasting to Portfolio Strategy Construction
+  authors:
+    - family-names: Lam
+      given-names: Fong
+    - family-names: Chan
+      given-names: Jennifer S. K.
+    - family-names: Choy
+      given-names: S. T. Boris
+    - family-names: Gao
+      given-names: Junbin
+  year: 2026
+  status: submitted
